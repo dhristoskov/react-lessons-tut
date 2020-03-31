@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.studentWrapper {
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    width: 150px;
+    margin:2.5em;
+    font-size: 18px;
+    color: whitesmoke;
+    background: rgb(143, 91, 91);
+}
+
+button {
+    padding: 0.7em;
+    background-color: transparent;
+    outline: none;
+    border: 1px solid black;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.btnWrapper{
+    display: flex;
+}
+.btn {
+    margin: auto;
+}
+input[type=text] {
+    width: 150px;
+    margin: 1em auto;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
