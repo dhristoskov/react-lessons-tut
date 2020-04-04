@@ -1,0 +1,19 @@
+.settings {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 30px auto;
+}
+
+.settings li {
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.settings li:hover,
+.settings li:active,
+.settings .active{
+    color: chocolate;
+}
