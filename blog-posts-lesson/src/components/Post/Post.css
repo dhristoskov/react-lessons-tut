@@ -1,0 +1,25 @@
+.Post {
+    width: 200px;
+    padding: 16px;
+    text-align: center;
+    border: 2px solid burlywood;
+    box-shadow: 0 2px 3px #ccc;
+    margin: 10px;
+    min-height: 200px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.Post h1 {
+    font-size: 16px;
+}
+
+.Post:hover,
+.Post:active {
+    background-color: #C0DDF5;
+}
+
+.Author {
+    margin: 18px 0;
+    color: burlywood;
+}
