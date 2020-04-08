@@ -1,0 +1,51 @@
+.CounterControl {
+    width: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.CounterControl:hover,
+.CounterControl:active {
+    background-color: #eee;
+}
+
+.line {
+    width: 100%;
+    height: 3px;
+    background: #fa923f ;
+    margin: 30px auto;
+}
+
+.btn {
+    width: 150px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 2px #ccc;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.results-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+}
+
+.results-list li{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fa923f;
+    text-align: center;
+    padding: 15px;
+}
