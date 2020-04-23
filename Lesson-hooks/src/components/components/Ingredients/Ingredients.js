@@ -6,6 +6,8 @@ import IngredientList from './IngredientList';
 import ErrorModal from '../UI/ErrorModal';
 import Search from './Search';
 
+
+//Reducer state manipulation
 const ingredientsReducer = ( state, action) => {
   switch(action.type){
     case 'GET':
@@ -19,6 +21,8 @@ const ingredientsReducer = ( state, action) => {
   }
 };
 
+
+//Reducer http manipulation
 const httpReducer = ( httpState, action) => {
   switch(action.type){
     case 'SEND':
