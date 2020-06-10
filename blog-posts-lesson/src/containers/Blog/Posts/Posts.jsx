@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 
 import './Posts.css'
 
+//Single post component
 const Posts = (props) => {
 
     
@@ -16,6 +17,7 @@ const Posts = (props) => {
         props.history.push('/' + id)
     }
 
+    //Get dummy posts
     useEffect(() => {
         axios.get('https://jsonplaceholder.typicode.com/posts')
              .then(res => {
