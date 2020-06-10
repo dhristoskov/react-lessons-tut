@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import './FullPost.css';
 
+
+//Full posts container
 const FullPost = (props) => {
 
     const [ selectedData, setSelectedData] = useState(null)
 
+        //Get dummy posts
         useEffect(() => {
             if(props.match.params.id){
                 if(!selectedData || (selectedData && selectedData.id !== +props.match.params.id)){
@@ -18,6 +21,7 @@ const FullPost = (props) => {
             }
         })
 
+        //Delete post
         const deletePostHandler = () => {
             axios.delete('https://jsonplaceholder.typicode.com/posts/' + props.match.params.id)
                  .then(res => {
