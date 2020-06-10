@@ -4,6 +4,7 @@ import axios from 'axios';
 
 import './NewPost.css';
 
+//New post component
 const NewPost = (props) => {
 
     const [ submited, setSubmited ] = useState(false)
@@ -19,6 +20,7 @@ const NewPost = (props) => {
         setPost({...post, [event.target.name]: event.target.value})
     }
 
+    //Post new component
     const submitHandler = (event) => { 
         event.preventDefault();
         axios.post('https://jsonplaceholder.typicode.com/posts', post)
