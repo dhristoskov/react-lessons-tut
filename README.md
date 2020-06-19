@@ -1,4 +1,5 @@
-11 React Apps and Mern Stack App
+React Apps and Mern Stack App
+tutorial and lessons app
 
 -Burger Builder
 
