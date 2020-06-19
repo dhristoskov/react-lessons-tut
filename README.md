@@ -11,6 +11,3 @@ tutorial and lessons app
 
 -Stitch Lessons
 
-and a few more small apps
-
-tutorail lessons 
