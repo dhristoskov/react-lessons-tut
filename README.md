@@ -1,5 +1,5 @@
-React Apps and Mern Stack App
-tutorial and lessons app
+# React Apps and Mern Stack App <h1>
+### Tutorial and Lessons app <h3>
 
 -Burger Builder
 
