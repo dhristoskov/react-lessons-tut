@@ -1,4 +1,4 @@
-# React Apps and Mern Stack App <h1>
+# React Apps and MERN - Stack App <h1>
 ### Tutorial and Lessons app <h3>
 
 	*Burger Builder
